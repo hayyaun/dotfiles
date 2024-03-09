@@ -15,20 +15,20 @@ patches: <patches|join( → )|pre_applied(%{$fg[yellow]%})|post_applied(%{$reset
   fi
 }
 
-ZSH_THEME_GIT_PROMPT_ADDED="%{$fg[cyan]%}+"
+ZSH_THEME_GIT_PROMPT_ADDED="%{$fg[green]%}+"
 ZSH_THEME_GIT_PROMPT_MODIFIED="%{$fg[yellow]%}✱"
 ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[red]%}✗"
 ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg[blue]%}➦"
 ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[magenta]%}✂"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[blue]%}✈"
-ZSH_THEME_GIT_PROMPT_SHA_BEFORE=" %{$fg[blue]%}"
+ZSH_THEME_GIT_PROMPT_SHA_BEFORE="%{$fg[blue]%} "
 ZSH_THEME_GIT_PROMPT_SHA_AFTER="%{$reset_color%}"
 
 function mygit() {
   if [[ "$(git config --get oh-my-zsh.hide-status)" != "1" ]]; then
     ref=$(command git symbolic-ref HEAD 2> /dev/null) || \
     ref=$(command git rev-parse --short HEAD 2> /dev/null) || return
-    echo "%{$fg[white]%}${ref#refs/heads/}$(git_prompt_short_sha)$(git_prompt_status)"
+    echo "%{$fg[white]%}${ref#refs/heads/}$(git_prompt_status)$(git_prompt_short_sha)"
   fi
 }
 

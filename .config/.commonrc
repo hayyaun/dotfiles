@@ -1,0 +1,10 @@
+# added by Yan
+
+alias cls="clear"
+alias mouseon="xinput set-prop 11 \"Device Enabled\" 1"
+alias mouseoff="xinput set-prop 11 \"Device Enabled\" 0"
+alias yanterm="qterminal"
+
+export PATH="$PATH:/opt/nvim-linux64/bin"
+export PATH="$PATH:/opt/nekoray"
+export PATH="$PATH:/usr/local/go/bin"

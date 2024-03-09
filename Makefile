@@ -25,7 +25,8 @@ init:
 		nixpkgs.polybar \
 		nixpkgs.picom \
 		nixpkgs.nitrogen \
-		nixpkgs.neofetch
+		nixpkgs.neofetch \
+		nixpkgs.oh-my-zsh
 
 	# stow (overwrite)
 	stow -v -t ~ */ --adopt

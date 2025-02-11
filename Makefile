@@ -26,7 +26,8 @@ init:
 		nixpkgs.picom \
 		nixpkgs.nitrogen \
 		nixpkgs.neofetch \
-		nixpkgs.oh-my-zsh
+		nixpkgs.oh-my-zsh \
+		nixpkgs.fira-code-nerdfont
 
 	# stow (overwrite)
 	@echo -n "Are you running this on a fresh machine? [Y/n] " && read ans && if [ $${ans:-'Y'} = 'n' ]; then \

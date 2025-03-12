@@ -1,4 +1,7 @@
+# ignore and remove
 *.log
 *.local*
+
+# ignore but keep default
 hypr/.config/background
 hypr/.config/wallpaper.jpg

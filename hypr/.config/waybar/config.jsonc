@@ -136,7 +136,7 @@
     "cpu": {
         "interval": 1,
         "format": "\uf4bc    {:0.1f}%",
-        "on-click": "kitty btop"
+        "on-click": "alacritty btop"
     },
     "pulseaudio": {
         "format": "{icon}    {volume}%",

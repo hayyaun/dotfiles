@@ -5,6 +5,8 @@ Below are the list of packages installed.
 networkmanager network-manager-applet htop neofetch base-devel zip unzip nano jq
 # fonts
 vazirmatn-fonts noto-fonts noto-fonts-ar noto-fonts-emoji fontconfig xorg-mkfontscale
+# icons
+catppuccin-cursors-mocha catppuccin-gtk-theme-mocha
 # theme
 adawita-dark qt5ct qt6ct xfce4-settings lxappearance
 # x11 i3

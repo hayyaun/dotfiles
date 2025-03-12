@@ -31,11 +31,11 @@
 #custom-lock,
 #custom-power {
   background-color: @crust;
-  padding: 0.5rem 0.8rem;
-  margin-top: 0.5rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-left: none;
   border-right: none;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.8rem;
 }
 
 /* right round */
@@ -43,12 +43,14 @@
 #window,
 #custom-btc,
 #custom-power,
+#custom-music,
 #tray,
 #language {
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
   margin-right: 0.5rem;
+  padding-right: 1rem;
 }
 
 /* left round */
@@ -56,11 +58,13 @@
 #window,
 #custom-btc,
 #custom-lock,
+#custom-music,
 #tray,
 #pulseaudio {
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
+  padding-left: 1rem;
 }
 
 #workspaces {
@@ -143,7 +147,6 @@ window#waybar.empty #window {
 
 #custom-music {
   color: @mauve;
-  border-radius: 1rem;
 }
 
 #custom-lock {

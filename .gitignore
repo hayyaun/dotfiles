@@ -1,3 +1,4 @@
 *.log
+*.local*
 hypr/.config/background
 hypr/.config/wallpaper.jpg

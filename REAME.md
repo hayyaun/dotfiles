@@ -16,3 +16,6 @@ wayland waybar hyprland hyprpaper hyprlock hyprshot pulseaudio brightnessctl
 # apps
 alacritty feh thunar ranger chromium wlogout btop thunar wofi kitty
 ```
+
+VSCode extensions: `catppuccin theme and icon pack`
+Chrome extensions: `dark-reader, catppuccin theme`

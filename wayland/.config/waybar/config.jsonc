@@ -40,8 +40,8 @@
             "8": "\udb83\udcae",
             "9": "\udb83\udcb0",
             "10": "\udb83\udfec",
-            "default": "\uf111",
-        },
+            "default": "\uf111"
+        }
     },
     "hyprland/window": {
         "format": "{initialTitle} ",
@@ -100,8 +100,8 @@
         },
         "format": "{icon} ",
         "format-alt": "{icon}    {capacity}%",
-        "format-charging": "\uee4d",
-        "format-plugged": "\uee4d",
+        "format-charging": "\uf1e6 ",
+        "format-plugged": "\uf1e6 ",
         "format-icons": [
             "\uf244",
             "\uf243",
@@ -176,5 +176,5 @@
         "tooltip": false,
         "on-click": "wlogout &",
         "format": "\uf011"
-    },
+    }
 }
